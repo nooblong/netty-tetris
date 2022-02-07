@@ -1,0 +1,7 @@
+package github.nooblong.auth;
+option java_package = "github.nooblong.auth";
+option java_outer_classname = "AuthProto";
+
+message LoginReq{
+  required string userName = 1;
+}
