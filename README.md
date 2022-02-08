@@ -4,4 +4,5 @@ protoc安装:
 3. ```
    protoc --java_out=./src/main/java src/main/java/github/nooblong/auth/Auth.proto
    ```
-4. 
+4. npm install axios protobufjs --save-dev
+5. 

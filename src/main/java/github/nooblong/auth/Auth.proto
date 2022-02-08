@@ -5,3 +5,7 @@ option java_outer_classname = "AuthProto";
 message LoginReq{
   required string userName = 1;
 }
+
+message CommonResp{
+  required string msg = 1;
+}
